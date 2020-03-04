@@ -78,7 +78,7 @@
         form {
           widows: 240px;
           text-align: center;
-          width: 100px;
+          /* width: 100px; */
         }
         input {
           width: 300px;
@@ -134,7 +134,7 @@
             background-color: tomato;
         }
         #down{
-          text-align: 100px;
+          text-align: center;
           color: white;
         }
         

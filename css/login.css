@@ -2,16 +2,13 @@
 .signin {
     background: rgba(44, 62, 80, 0.7);
   
-    width:300px;
     margin: auto;
     height: 80vh;
-    margin-left: 470px;
     text-align: center;
   }
   form {
     widows: 240px;
     text-align: center;
-    width: 100px;
     
   }
   input {
@@ -57,7 +54,6 @@
   .container {
     display: flex;
     flex-direction: row;
-    widows: 100%;
     text-align: center;
   }
   ::placeholder {
@@ -67,4 +63,13 @@
   .right{
     height: 100vh;
     background-color: tomato;
+}
+
+
+.mylogin{
+  margin: 20px;
+}
+
+.create_account{
+  margin-top: 50px;
 }
