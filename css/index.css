@@ -1,0 +1,42 @@
+body{
+    font-family: 'PT Serif',serif;
+}
+.aboutUsSection{
+    text-align: center;
+    padding: 50px;
+    margin: 60px;
+}
+.servicesSection{
+    text-align: center;
+    margin: 60px;
+    padding: 60px;
+}
+.howItWorks{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+.clientTestimonials{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+.taskersTestimonials{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+.footer{
+    text-align: center;
+}
+#socials{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+}
+#whatsappLogo{
+    width: 40px;
+}
+.contactUs{
+    text-align: center;
+}
