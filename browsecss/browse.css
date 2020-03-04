@@ -1,0 +1,108 @@
+.jobicon img{
+  height: 100px;
+  width: 100px;
+  border: 2px solid green;
+  border-radius: 40%;
+}
+
+.jobicon{
+  text-align: center;
+}
+
+.jobicon:hover{
+  -webkit-transform: scale(0.5);
+  transform: scale(1.2);
+}
+
+.job_section{
+  text-align: center;
+  padding: 20px;
+  border-right: 12px solid blueviolet;
+}
+
+.select_job{
+  
+  
+}
+
+.mycard{
+background-color: rgb(167, 221, 200);
+padding: 15px;
+margin-bottom: 10px;
+
+}
+
+.mycard:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(0.9);
+  border: 1px solid coral;
+}
+
+div.static{
+  position: static;
+  height: 500px;
+  width: auto;
+  overflow:auto;
+}
+
+.posting{
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+div.jumbotron{
+  text-align: center;
+  
+ 
+}
+
+.recent{
+  margin-top: 40px;
+}
+
+div.select_job{
+  width: 80%;
+}
+
+div.map{
+  margin-top: 100px;
+}
+
+.job_detail{
+  display: none;
+}
+
+div.job_detail{
+  margin-top: 100px;
+}
+
+div.task{
+  margin-top: 10px;
+}
+
+div.bid{
+  margin-bottom: 10px;
+}
+
+.post img{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+input[type=text],input[type=date],input[type=tel],input[type=number], select {
+  width: 70%;
+  padding: 4px 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.browseform{
+  display: none;
+}
+
+div.browseform{
+  margin-top: 100px;
+}
