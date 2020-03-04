@@ -6,72 +6,161 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <title>Kijakazi Landing Page</title>
 </head>
 <body>
-    <div class="jumbotron">
-        <h1>Kijakazi</h1>
-        
+    <div class="topPageNavigationAndTitle">
+        <div class="row" id="navRow">
+           <div class="col-md-4" id="nameKijakazi">
+            <img src="Images/kijakazi-logo.webp" alt="logo" id="logoKjK">
+            <h1>Kijakazi</h1>
+           </div>
+           <div class="col-md-8">
+               <ul class="navbar">
+                   <li><a href="">Home</a></li>
+                   <li><a href="">Post a kazi</a></li>
+                   <li><a href="">Find a kazi</a></li>
+                   <li><a href="">Sign up</a></li>
+                   <li><a href="">Log in</a></li>
+               </ul>
+           </div>
+        </div>
     </div>
     <div class="aboutUsSection">
-        <h4>Hiring professional blue collar workers can be hectic and tiresome, especially since most casual workers
-            work through referall and recommendations.
-        </h4>
+        <h2><b>Hiring professional blue collar workers can be hectic and tiresome, especially since most casual workers
+            work through referall and recommendations.</b>
+        </h2>
         <p>Finding the right person for that task shouldn't be such a hustle. Here at Kijakazi, we give you 
             all the resources you need to get the best person for that task you'd like done.
         </p>
     </div>
     <div class="servicesSection">
-        <h2>Services</h2>
+        <h2><b>Services</b></h2>
         <p>Kijakazi offers a wide range of services. From the most basic services such as cleaning your house and running errands,
-             to complex tasks such as construction and assembly of machines, we got you!
+             to complex tasks such as construction and assembly of machines, we got you! Select a field from our various categories and find the best person to perform the task.
         </p>
-    </div>
-    <div class="howItWorks">
-        <h2>How it Works</h2>
         <div class="row">
-            <div class="col-md-3">
-                <img src="" alt="">
+            <div class="col-md-12">
+                <img src="Images/cleaningIcon.png" alt="cleaning icon" id="categoryIcons">
+                <img src="Images/errands.png" alt="errands" id="categoryIcons">
+                <img src="Images/masonryIcon.png" alt="masonry" id="categoryIcons">
+                <img src="Images/mechanicIcon.gif" alt="mechanics" id="categoryIcons">
+                <img src="Images/shoppingMan.png" alt="shopping man" id="categoryIcons">
+                <img src="Images/carpenterIcon.png" alt="capenter" id="categoryIcons">
             </div>
-            <div class="col-md-3">
-                <img src="" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="" alt="">
-            </div>
-            <div class="col-md-3">
-                <img src="" alt="">
+            <div class="col-md-12">
+                <img src="Images/laundryIcon.png" alt="laundry" id="categoryIcons">
+                <img src="Images/furnitureAssembly.png" alt="furniture assembly" id="categoryIcons">
+                <img src="Images/movers.jpeg" alt="movers" id="categoryIcons">
+                <img src="Images/networking.jpeg" alt="networking" id="categoryIcons">
+                <img src="Images/gardening.jpeg" alt="gardening" id="categoryIcons">
+                <img src="Images/constructionEquipment.jpeg" alt="construction equipment" id="categoryIcons">
             </div>
         </div>
+    </div>
+    <div class="howItWorks">
+        <h2><b>How it Works</b></h2>
+        <h4 id="h4">Posting a job</h4>
         <div class="row">
             <div class="col-md-3">
-                <img src="" alt="">
+                <figure>
+                    <img src="Images/clickIcon1.png" alt="click on the button" id="icons">
+                    <figcaption>Select the 'post a job' button on the navigation bar. </figcaption>
+                </figure>
             </div>
             <div class="col-md-3">
-                <img src="" alt="">
+                <figure>
+                    <img src="Images/selectIcon.png" alt="Select the category your task falls in." id="icons">
+                    <figcaption>Select the category the task you want done falls in.</figcaption>
+                </figure>
             </div>
             <div class="col-md-3">
-                <img src="" alt="">
+                <figure>
+                    <img src="Images/detailsIcon.png" alt="Add details to your job post" id="icons">
+                    <figcaption>Describe the job details including the location, due date and your budget.</figcaption>
+                </figure>
             </div>
             <div class="col-md-3">
-                <img src="" alt="">
+                <figure>
+                    <img src="Images/postClick.png" alt="post your job offer" id="icons">
+                    <figcaption>Post for free and select the most appealing worker in our list.</figcaption>
+                </figure>
+            </div>
+        </div>
+        <h4 id="h4">Finding a job</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <figure>
+                    <img src="Images/signUpICon.png" alt="Sign Up" id="icons">
+                    <figcaption>Sign up and select the skills you are proficient at. Some skill sets may require some proof of skill eg. certification.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure>
+                    <img src="Images/searchMagnifier.png" alt="Find tasks" id="icons">
+                    <figcaption>Use the navigation bar to select the find task option.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure>
+                    <img src="Images/selectIcon.png" alt="select task category" id="icons">
+                    <figcaption>Select a category and browse through the available tasks in that category.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-3">
+                <figure>
+                    <img src="Images/placeBid.png" alt="Bid for tasks" id="icons">
+                    <figcaption>Find a task you can perform and place an interest bid. Wait for the employer to assign the task to you and earn money!!</figcaption>
+                </figure>
             </div>
         </div>
     </div>
     <div class="clientTestimonials">
         <h2>Client Testimonials</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p>"Kijakazi has helped me find workers for almost all household tasks that might have otherwise needed an introduction from a third party.
+                    I recently found a plumber, painter and gardener all on the same site, and in the comfort of my home."<br>
+                    ~Nancy Hamadi
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>"I like that I can post jobs and also find  tasks within my skill range to supplement my income."<br>
+                    ~Jeniffer Hudson
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>"I get to view the skill set of all available workers and filter them according to ratings, tasks done, and the amount they charge. That for me, is convenience and effeciency."<br>
+                    ~Juma Mwakio
+                </p>
+            </div>
+        </div>
     </div>
     <div class="taskersTestimonials">
         <h2>Tasker's Testimonials</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p>"I perform tasks according to my schedule and expertise, and also get to choose what I want to work on. I like the freedom Kijakazi offers to its workforce."<br>
+                    ~Derrick Mwathi
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>"I get to earn money from easy to do tasks such as running errands and assembling furniture."<br>
+                    ~Joan Otieno
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>"I am my own boss. I wwork at my convenience and schedule. The payments are always available on time and withdrawable 7 days a week."<br>
+                    ~Mohhamed Ali
+                </p>
+            </div>
+        </div>
     </div>
     <div class="contactUs">
         <h2>Contact Us</h2>
         <p>Tel: +254 791045019</p>
         <p></p><img src="Images/whatsapp-logo.png" alt="Whatsapp Logo" id="whatsappLogo"> Whatsapp: +254 719554603</p><br>
-        <div class="col-md-12">
+        <div class="col-md-12" id="mediaIcons">
             <a href=""><img src ="Images/twitter-logo.png" alt="Twitter" id="socials"></a>
             <a href=""><img src ="Images/facebook-logo.jpg" alt="Facebook" id="socials"></a>
             <a href=""><img src ="Images/googlePlusLogo.png" alt="Google+" id="socials"></a>
@@ -82,7 +171,7 @@
         </div>
     </div>
     <div class="textFooter">
-        <div class="row">
+        <div class="row" id="topFooter">
             <div class="col-md-3">
                 <a href="">About us</a><br>
                 <a href="">FAQs</a><br>
@@ -106,7 +195,7 @@
         </div>
     </div>
     <div class="footer">
-        <p>Copyright KIJAKAZI 2020©</p>
+        <p><b>Copyright KIJAKAZI 2020©</b></p>
     </div>
 </body>
 </html>
