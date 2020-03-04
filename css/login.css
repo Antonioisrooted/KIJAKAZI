@@ -1,0 +1,70 @@
+
+.signin {
+    background: rgba(44, 62, 80, 0.7);
+  
+    width:300px;
+    margin: auto;
+    height: 80vh;
+    margin-left: 470px;
+    text-align: center;
+  }
+  form {
+    widows: 240px;
+    text-align: center;
+    width: 100px;
+    
+  }
+  input {
+    width: 300px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: "Play", sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+  }
+  input[type="button"] {
+    border: none;
+    width: 200px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+  }
+  input[type="button"]:hover {
+    color: #fff;
+    background-color: black;
+  }
+  h2 {
+    color: white;
+  }
+  a {
+    color: yellow;
+    text-decoration: blink;
+  }
+  a:hover {
+    color: skyblue;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    widows: 100%;
+    text-align: center;
+  }
+  ::placeholder {
+    color: aliceblue;
+    opacity: 0.8;
+  }
+  .right{
+    height: 100vh;
+    background-color: tomato;
+}
