@@ -1,37 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>signup page</title>
-    <link rel="stylesheet" type="text/css" href="css/signup.css" />
-    <link rel="stylesheet" href="css/bootstrap.css">
-    
-  </head>
-  
-  <body>
-          
-              <div class="right">
-                <div class="signup">
-                    <form>
-                      <h2>SignUp</h2>
-                      <input
-                        type="text"
-                        name="username"
-                        placeholder="First name"
-                      /><br /><br />
-                      <input
-                        type="text"
-                        name="username"
-                        placeholder="Last name"
-                      /><br /><br />
-                      <input type="text" name="pass" placeholder="Password" /><br /><br />
-                      <input type="text" name="pass" placeholder="Confirm" /><br /><br />
-                      <input type="text" placeholder="Email address" /><br /><br />
-                      <input  class="yoo" type="button" value="Sign up" onclick="myFunction()"/><br /><br /><br />
-                     
-                      <!-- <script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>signup page</title>
+  <link rel="stylesheet" type="text/css" href="css/signup.css" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/signup.js"></script>
+
+</head>
+
+<body>
+
+  <div class="right">
+    <div class="signup">
+      <form>
+        <h2>SignUp</h2>
+        <input type="text" name="fname" placeholder="First name"><br /><br />
+        <input type="text" name="lname" placeholder="Last name"><br /><br />
+        <input type="text" name="password" placeholder="Password"><br /><br />
+        <input type="text" name="password" placeholder="Confirm"><br /><br />
+        <input type="text" name="email" placeholder="Email address"><br /><br />
+        <input class="yoo" type="button" value="Sign up"><br /><br /><br />
+
+        <!-- <script>
                         function myFunction() {
                             var x = document.getElementById("msg");
                             x.className = "show";
@@ -40,13 +35,13 @@
                             }
                         }
                       </script> -->
-                    </form>
-                    <div id="down"><p>Already have an Account?</p>
-                      <p>CLICK HERE<a href="login.html">&nbsp;LOGIN</a></p> </div>
-                  </div>
-              </div>
-          
-      
-    
-  </body>
+      </form>
+      <div id="down">
+        <p>Already have an Account?</p>
+        <p>CLICK HERE<a href="login.html">&nbsp;LOGIN</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
