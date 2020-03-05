@@ -5,8 +5,10 @@ body{
     width: 10px;
     height: 20px;
 }
-.navbar{
+#navRow{
+    background-color: gray;
     position: fixed;
+    width: 100%;  
 }
 #nameKijakazi{
     display: block;
