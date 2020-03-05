@@ -26,14 +26,12 @@ body{
 img{
     border-radius: 2%;
 }
-.big{
+/* .big{
     position: relative;
     width: 100%;
     height: 100%;
-    /* display: flex; */
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
 }
 .big #mentor h1 p{
     text-align: center;
@@ -59,8 +57,7 @@ img{
     position: absolute;
     top: 0;
     left: 0;
-    /* background-color: #fff; */
     width: 100%;
     height: 100vh;
     opacity: 0.5;
-}
+} */
