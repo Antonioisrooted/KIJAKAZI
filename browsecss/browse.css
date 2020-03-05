@@ -1,3 +1,37 @@
+#navRow{
+  background-color: gray;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;    
+}
+#nameKijakazi{
+  display: block;
+}
+.navbar{
+  list-style: none;
+  display: block;
+}
+
+
+.navbar a{
+  color: white;
+}
+
+.profile img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.post{
+  float: left;
+}
+
+.mycontent{
+ padding-top: 100px;
+}
+
 .jobicon img{
   height: 100px;
   width: 100px;
@@ -18,11 +52,6 @@
   text-align: center;
   padding: 20px;
   border-right: 12px solid blueviolet;
-}
-
-.select_job{
-  
-  
 }
 
 .mycard{
@@ -101,8 +130,15 @@ input[type=text],input[type=date],input[type=tel],input[type=number], select {
 
 .browseform{
   display: none;
+  text-align: left;
 }
 
 div.browseform{
   margin-top: 100px;
+}
+
+#location{
+  height: 20px;
+  width: 20px;
+  
 }
