@@ -1,4 +1,4 @@
-console.log("nothing")
+
 $().ready(function () {
     $("input.yoo").click(function () {
         fname = $("input[name='fname'").val();
