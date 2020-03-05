@@ -8,7 +8,9 @@ body{
 #navRow{
     background-color: gray;
     position: fixed;
-    width: 100%;  
+    width: 100%;
+    z-index: 10;
+    top: 0;    
 }
 #nameKijakazi{
     display: block;
@@ -16,6 +18,9 @@ body{
 .navbar{
     list-style: none;
     display: block;
+}
+.navbar a{
+    color: white;
 }
 .aboutUsSection{
     text-align: center;
