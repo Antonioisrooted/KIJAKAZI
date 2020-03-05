@@ -21,11 +21,21 @@ body{
 }
 .navbar a{
     color: white;
+    text-decoration: none;
 }
 .aboutUsSection{
+    background-image: url("../Images/backgroundCleaning-services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     padding: 50px;
+    padding-top: 150px;
     margin: 60px;
+    height: 650px;
+    color: black;
+}
+#homeParagraph{
+    margin-top: 200px;
 }
 .servicesSection{
     text-align: center;
