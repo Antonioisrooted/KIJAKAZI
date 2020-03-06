@@ -1,0 +1,108 @@
+body{
+    font-family: 'PT Serif',serif;
+}
+#logoKjK{
+    width: 10px;
+    height: 20px;
+}
+#navRow{
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;    
+}
+#nameKijakazi{
+    display: block;
+}
+.navbar{
+    list-style: none;
+    display: block;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.aboutUsSection{
+    background-image: url("../Images/backgroundCleaning-services.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    padding-top: 150px;
+    margin: 60px;
+    height: 650px;
+    color: black;
+}
+#homeParagraph{
+    margin-top: 200px;
+}
+.servicesSection{
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+}
+#categoryIcons{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.howItWorks{
+    text-align: center;
+    padding-top: 20px;
+    margin: 30px;
+}
+#h4{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.clientTestimonials{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+#icons{
+    height: 50px;
+    width: 50px;
+}
+.taskersTestimonials{
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+.footer{
+    text-align: center;
+}
+#socials{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+}
+#whatsappLogo{
+    width: 40px;
+}
+.contactUs{
+    text-align: center;
+}
+.textFooter{
+    background-color: gray;
+}
+#mediaIcons{
+    padding: 20px;
+    margin: 10px;
+}
+#topFooter{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+#topFooter a{
+    color: white;
+}
+.footer{
+    margin: 10px;
+    padding: 10px;
+}
